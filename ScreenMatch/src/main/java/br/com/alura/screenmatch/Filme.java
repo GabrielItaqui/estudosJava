@@ -1,13 +1,17 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package br.com.alura.screenmatch;
 
-/**
- *
- * @author merca
- */
 public class Filme {
-    
+
+    String nome;
+    int anoDeLancamento;
+    boolean incluidoNoPlano;
+    double avaliacao;
+    int totalDeAvaliacoes;
+    int duracaoEmMinutos;
+
+    void exibeFichaTecnica() {
+        System.out.println("Nome do filme: " + nome);
+        System.out.println("Ano de Lançamento: " + anoDeLancamento);
+        System.out.println("Duração em minutos: " + duracaoEmMinutos);
+    }
 }
